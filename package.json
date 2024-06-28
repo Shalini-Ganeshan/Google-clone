@@ -26,7 +26,9 @@
     "test": "react-scripts test",
     "test:watch": "react-scripts test --watch",
     "test:coverage": "react-scripts test --coverage",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+      "lint:ci": "CI=true npm run lint",
+    "test:ci": "CI=true npm test"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -55,9 +57,9 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-     "devDependencies": {
+    ]
+  },
+  "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
-  }
   }
 }
