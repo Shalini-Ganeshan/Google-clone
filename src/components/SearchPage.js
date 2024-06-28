@@ -116,7 +116,6 @@ const SearchPage = ({ toggleTheme }) => {
                   borderRadius: "50%",
                   width: "30px",
                   height: "30px",
-                  borderRadius: "50%",
                   backgroundColor: "#8b0000",
                   color: "white",
                   cursor: "pointer",
