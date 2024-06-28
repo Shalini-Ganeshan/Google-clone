@@ -5,7 +5,7 @@ const SearchResultsContainer = styled("div")(({ theme }) => ({
   maxWidth: "100vw",
   marginLeft: "0px",
   marginBottom: "100px",
-  top: "148px",
+   top: "140px",
   position: "fixed",
   bottom: "0",
   width: "100vw",
