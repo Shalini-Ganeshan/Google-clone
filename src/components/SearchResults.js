@@ -9,7 +9,6 @@ import { Typography, IconButton } from "@mui/material";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 const SearchResults = ({ data = {}  }) => {
   const theme = useTheme();
-  const formattedSearchTime = data?.searchInformation?.searchTime?.toFixed(2);
   const [appsIconColor, setAppsIconColor] = useState(
     theme.palette.mode === "light" ? "#fff" : "rgba(0, 0, 0, 0.87)"
   );
